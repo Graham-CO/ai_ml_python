@@ -2,6 +2,8 @@
 # Graham Williams
 # grw400@gmail.com
 
+import numpy as np
+
 # Cross-entropy loss
 # inherits Loss class, and performs error calculations
 class Loss_CategoricalCrossentropy(Loss):
